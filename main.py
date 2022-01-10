@@ -2,6 +2,7 @@
 Some experiments evaluating the FLGuard algorithm from https://arxiv.org/abs/2101.02281
 """
 
+import logging
 import pickle
 
 import numpy as np
@@ -61,4 +62,5 @@ def main():
 
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO)
     main()
