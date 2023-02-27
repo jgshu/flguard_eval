@@ -1,7 +1,9 @@
 # FLGuard Evaluations
 
 Just some of my own evaluations of the FLGuard algorithm proposed by [Nguyen et al. (2021)](https://arxiv.org/abs/2101.02281v2).
-Note that these only apply to an earlier proposed version.
+Note that these only apply to an earlier proposed version. The updated version of this algorithm addressed these issues and can be found at https://arxiv.org/abs/2101.02281v4.
+
+*Note: This repo is intentionally broken since it has an outdated basis*
 
 ## Executing
 
@@ -13,13 +15,6 @@ pip install -r requirements.txt
 Then the main experiments can be run with:
 ```sh
 python main.py
-```
-
-## Quick recreation
-
-The main experiment can be quickly recreated using docker with:
-```sh
-docker run ghcr.io/codymlewis/flguard:latest
 ```
 
 
