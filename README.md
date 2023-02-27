@@ -6,6 +6,8 @@ Note that these only apply to an earlier proposed version, and that the newer ve
 Also note that the code in this repository has not been updated since [Nguyen et al. (2021)](https://arxiv.org/abs/2101.02281v2)'s revision from FLGuard to
 flame, and so it is currently in a broken state.
 
+*Note: This repo is intentionally broken since it has an outdated basis*
+
 ## Executing
 
 First install the requirements:
